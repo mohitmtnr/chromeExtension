@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+
+body {
+  padding: 10px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 150px;
+  height: 1/1;
+}
+
+button {
+  width: 120px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(44, 145, 95);
+  cursor: pointer;
+  transition: all ease 400ms;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.95);
+}
